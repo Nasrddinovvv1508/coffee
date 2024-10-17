@@ -1,0 +1,661 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.main-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.secondary-container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    user-select: none;
+}
+
+/* Home Pages */
+.home_hero_section {
+    background-image: url(../images/home-hero.png);
+    padding: 117px 0 116px 85px;
+    color: #FEFCF7;
+    margin-bottom: 136px;
+    border-radius: 11px;
+
+    div {
+        width: 493px;
+    }
+
+    h1 {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 80%;
+        margin-top: 32px;
+        margin-bottom: 56px;
+    }
+
+    button {
+        padding: 15px 31px;
+        background-color: #0E8784;
+        border-radius: 6px;
+        cursor: pointer;
+        border: none;
+
+        font-family: 'Fraunces';
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        color: #FEFCF7;
+    }
+}
+
+/* Home - Collection */
+.collection_container {
+    margin-bottom: 200px;
+    /* background-image: url(../images/our-collection.svg);
+    background-repeat: no-repeat;
+    background-position: top; */
+
+    img {
+        margin-bottom: -70px;
+    }
+
+    .collection_cards_wrapper {
+        display: flex;
+        gap: 30px;
+    }
+
+    div {
+        width: 255px;
+        text-align: center;
+
+        img {
+            width: 255px;
+        }
+
+        h3 {
+            font-family: 'Fraunces';
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 32px;
+            margin-top: 101px;
+            margin-bottom: 24px;
+            color: #333D4B;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #333D4B;
+        }
+    }
+}
+
+/* About - Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 0;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+
+        a {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.9230769276618958px;
+            color: #83888F;
+            text-transform: uppercase;
+            transition: all 0.4s;
+        }
+
+        a:hover {
+            color: #444343;
+            text-decoration: underline;
+        }
+    }
+}
+
+/* Main */
+/* Hero styles */
+.hero_section {
+    background-image: url(../images/hero-bg-image.png);
+    padding: 137px 0 137px 85px;
+    border-radius: 8px;
+    margin-bottom: 168px;
+
+    div {
+        width: 445px;
+    }
+
+    h1 {
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+
+/* Commitment styles */
+.commitment_section {
+    margin-bottom: 168px;
+    display: flex;
+    align-items: center;
+    gap: 125px;
+
+    h2 {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #333D4B;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+
+/* Quality styles */
+.quality_section {
+    background-color: #282f38;
+    border-radius: 8px;
+    padding: 0 85px 88px;
+    margin-bottom: 168px;
+
+    display: flex;
+    align-items: center;
+    gap: 128px;
+
+    h3 {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FEFCF7;
+        margin-top: 32px;
+    }
+
+    img {
+        margin-top: -88px;
+    }
+}
+
+/* Benefit styles */
+.benefit_section {
+    margin-bottom: 200px;
+}
+
+.benefit_bg {
+    background-color: #2C343E;
+    color: #FEFCF7;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 370px 317px;
+
+    h4 {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 32px;
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+    }
+}
+
+.benefit_cards_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: -230px;
+}
+
+.benefit_card {
+    background-color: #0E8784;
+    border-radius: 8px;
+    color: #FEFCF7;
+    padding: 72px 48px 48px;
+    text-align: center;
+
+    h4 {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin: 56px 0 24px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+/* Service styles */
+.service_section {
+    margin-bottom: 200px;
+
+    h1 {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 80px;
+    }
+
+    button {
+        background-color: #0E8784;
+        padding: 15px 31px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 64px;
+        transition: all 0.4s;
+        border: 2px solid #0E8784;
+
+        font-family: 'Fraunces';
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        color: #FEFCF7;
+    }
+
+    button:hover {
+        background-color: #FEFCF7;
+        color: #0E8784;
+    }
+}
+
+.service_img_wrapper {
+
+    div {
+        width: 791px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -20px;
+    }
+}
+
+.service_cards {
+    display: flex;
+    gap: 95px;
+}
+
+.service_card {
+    margin-top: 80px;
+    color: #333D4B;
+
+    h2 {
+        color: #FDD6BA;
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+    }
+
+    h3 {
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        margin: 38px 0 42px;
+        width: 255px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.countries {
+    margin-bottom: 168px;
+
+    .countries_title {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 72px;
+        color: #83888F;
+    }
+
+    .countries_cards {
+        display: flex;
+        gap: 95px;
+    }
+
+    .countries_card {
+        width: 285px;
+    }
+
+    .countries_texts {
+        margin-top: 46px;
+
+        h4 {
+            font-family: 'Fraunces';
+            font-size: 32px;
+            font-weight: 900;
+            color: #333D4B;
+            margin-bottom: 24px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+}
+
+/* Footer styles */
+footer {
+    background-color: #2C343E;
+    padding: 47px 85px;
+    margin-bottom: 88px !important;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        a {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.9230769276618958px;
+            color: #83888F;
+            text-transform: uppercase;
+            transition: all 0.4s;
+        }
+
+        a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+
+    .logo_div {
+        display: flex;
+        align-items: center;
+        gap: 103px;
+    }
+}
+
+/* Plan Page Styles */
+.hero_plan_section {
+    background-image: url(../images/plan-hero-bg.png);
+    padding: 134px 0 134px 85px;
+    color: #FEFCF7;
+    border-radius: 8px;
+    margin-bottom: 168px;
+
+    div {
+        width: 445px;
+    }
+
+    h1 {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 80%;
+    }
+}
+
+/* Plan - Advantage styles */
+.advantages_section {
+    background-color: #293039;
+    margin-bottom: 168px;
+    padding: 100px 0 100px 85px;
+
+    .line_img {
+        width: 791px;
+        margin-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: -17px;
+        }
+    }
+
+    .advantage_cards {
+        display: flex;
+        gap: 95px;
+    }
+
+    .advantage_card {
+        width: 285px;
+        color: #FEFCF7;
+    }
+
+    h2 {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    h3 {
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        margin-bottom: 42px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+}
+
+/* Plan - Accordion coffee */
+.coffee_accordion {
+    margin-bottom: 168px;
+    display: flex;
+    gap: 145px;
+
+    summary {
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #83888F;
+        user-select: none;
+    }
+}
+
+.accordion_aside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        border-bottom: 2px solid rgba(131, 136, 143, 0.25);
+        padding-bottom: 24px;
+        width: 255px;
+
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        color: #333D4B;
+    }
+
+    span {
+        color: #0E8784;
+    }
+
+    .accordion-last {
+        border-bottom: none;
+    }
+}
+
+.accordion_coffee_types {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.accordion_cards {
+    display: flex;
+    gap: 23px;
+    margin-top: 38px;
+}
+
+.accordion_card {
+    padding: 32px 28px 84px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+    color: #333D4B;
+
+    h2 {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.accordion_order {
+    padding: 27px 64px;
+    background-color: #293039;
+    color: #fff;
+    margin-bottom: 40px;
+
+    h6 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        opacity: 50%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 40px;
+    }
+
+    span {
+        color: #0E8784;
+    }
+}
+
+.accordion_button {
+    text-align: right;
+}
+
+.accordion_coffee_types button {
+    padding: 15px 35px;
+    background-color: #0E8784;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #0E8784;
+    transition: all 0.4s;
+
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    color: #fff;
+}
+
+.accordion_coffee_types button:hover {
+    background-color: #fff;
+    color: #0E8784;
+}
